@@ -55,9 +55,25 @@ namespace Tactsoft.Service.DbDependencies
 
 
 
+        //Company entity 
 
 
 
+        public DbSet<CompanyName> CompanyNames { get; set; }
+        public DbSet<Entrepreneur> Entrepreneurs { get; set; }
+        public DbSet<CompanySize> CompanySizes { get; set; }
+
+        public DbSet<CompanyAdress> CompanyAdresss { get; set; }
+        public DbSet<BusinessDescription> BusinessDescriptions { get; set; }
+        public DbSet<BusinessTradeLicienceNo> BusinessTradeLicienceNos { get; set; }
+        public DbSet<WebsiteUrl> WebsiteUrls { get; set; }
+
+        public DbSet<RLNO> RLNOs { get; set; }
+        public DbSet<ContactPersonName> ContactPersonNames { get; set; }
+        public DbSet<ContactPersonDesignation> ContactPersonDesignations { get; set; }
+
+        public DbSet<ContactPersonEmail> ContactPersonEmails { get; set; }
+        public DbSet<ContactPersonMobile> ContactPersonMobiles { get; set; }
 
         #endregion
 
