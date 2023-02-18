@@ -12,7 +12,11 @@ namespace Tactsoft.Core.Entities
     public class CompanyName : BaseEntity
     {
 
+        [Display(Name = "CompanyName English Name")]
         public string CompanyNameEnglishName { get; set; }
+
+
+        [Display(Name = "CompanyName Bnagla Name")]
 
         public string CompanyNameBnaglaName { get; set; }
 
