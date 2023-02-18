@@ -16,7 +16,7 @@ namespace Tactsoft.Core.Entities
 
 
 
-        [Display(Name = "JobSubCategory Name")]
+        [Display(Name = "Job SubCategory Name")]
 
         public string JobSubCategoryName { get; set; }
 
