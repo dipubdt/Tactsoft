@@ -10,5 +10,6 @@ namespace Tactsoft.Core.Entities
     public class ContactPersonEmail : BaseEntity
     {
 
-        public string PersonEmail { get; set; } 
+        public string PersonEmail { get; set; }
+    }
 }

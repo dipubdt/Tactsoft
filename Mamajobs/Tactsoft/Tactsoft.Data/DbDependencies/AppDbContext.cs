@@ -75,6 +75,15 @@ namespace Tactsoft.Service.DbDependencies
         public DbSet<ContactPersonEmail> ContactPersonEmails { get; set; }
         public DbSet<ContactPersonMobile> ContactPersonMobiles { get; set; }
 
+
+
+
+        public DbSet<JobPost> JobPosts { get; set; }
+
+        public DbSet<OtherBenefitType> OtherBenefitTypes { get; set; }
+
+
+        public DbSet<Benefit> Benefits { get; set; }
         #endregion
 
 
